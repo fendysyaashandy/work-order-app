@@ -3,8 +3,6 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_places_flutter/google_places_flutter.dart';
 import 'package:work_order_app/core/widget/app_state_page.dart';
 
-const String googleApiKey = "AIzaSyC8EjxfalU-TK8i0vaNXLjQud9pNTc9UeI";
-
 class LocationPicker extends StatefulWidget {
   final int? workOrderId;
   final Function(double, double) onLocationSelected;
